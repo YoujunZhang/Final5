@@ -1,0 +1,114 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+}
+
+
+.hide {
+    display: none;
+    /* border-radius: 50%; */
+    filter: blur(5px);
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    transform: scale(2.5);
+    
+  }
+  
+.show {
+    display: block;
+    color: rgb(179, 0, 0);
+    width: 200px;
+    height: 60px;
+    /* background-color: rgb(255, 247, 225); */
+    /* border-radius: 100px; */
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    animation-name: phill;
+    animation-duration: 20s;
+    animation-timing-function: linear;   
+    filter: blur(2px);
+    opacity: 100%;
+    
+
+  }
+
+  div {
+    /* Background pattern from Toptal Subtle Patterns */
+       height: 400px;
+       width: 100%;
+       /* background-image: 
+           url("https://amymhaddad.s3.amazonaws.com/morocco-blue.png"),
+           url("https://amymhaddad.s3.amazonaws.com/oriental-tiles.png"); */
+       background-repeat: no-repeat, no-repeat;
+       background-position: right, left; 
+       transition: width 10s, height 10s, transform 10s ease-in-out;
+       transition: all 12s linear;
+    }
+
+
+    .hide {
+        display: none;
+        /* border-radius: 50%; */
+        filter: blur(5px);
+        position: absolute;
+        top: 40%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+        transform: scale(2.5);
+        
+      }
+      
+      .myDIV2:hover + .hide {
+        display: block;
+        color: rgb(179, 0, 0);
+        width: 400px;
+        height: 60px;
+        /* background-color: rgb(255, 247, 225); */
+        /* border-radius: 100px; */
+        position: absolute;
+        top: 40%;
+        right: 40%;
+        animation-name: phill;
+        animation-duration: 20s;
+        animation-timing-function: linear;   
+        filter: blur(2px);
+        opacity: 100%;
+        
+    
+      }
+    
+      .hide {
+        display: none;
+        /* border-radius: 50%; */
+        filter: blur(5px);
+        position: absolute;
+        top: 70%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+        transform: scale(2.5);
+        
+      }
+      
+      .myDIV3:hover + .hide {
+        display: block;
+        color: rgb(179, 0, 0);
+        width: 100px;
+        height: 60px;
+        /* background-color: rgb(255, 247, 225); */
+        /* border-radius: 100px; */
+        position: absolute;
+        top: 80%;
+        right: 70%;
+        animation-name: phill;
+        animation-duration: 20s;
+        animation-timing-function: linear;   
+        filter: blur(2px);
+        opacity: 100%;
+        
+    
+      }
+
+
